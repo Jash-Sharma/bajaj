@@ -5,7 +5,7 @@ app.use(express.json());
 app.post("/bfhl", (req, res) => {
   const data = req.body.data || [];
   const user_id = "jash_sharma_28032003";
-  const email = "jashsharma1310@gmail.com";
+  const email = "jash.sharma2021@vitstudent.ac.in";
   const roll_number = "21BCE6176";
 
   const numbers = data.filter((item) => !isNaN(item));
