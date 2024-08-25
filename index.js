@@ -1,7 +1,8 @@
 const express = require("express");
+const cors = require('cors');
 const app = express();
 app.use(express.json());
-
+app.use(cors());
 app.post("/bfhl", (req, res) => {
   const data = req.body.data || [];
   const user_id = "jash_sharma_28032003";
